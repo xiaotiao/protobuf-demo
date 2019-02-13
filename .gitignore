@@ -1,0 +1,16 @@
+target
+/.classpath
+/.settings
+/.idea
+/.mvn
+/logs
+/log
+*.iml
+.DS_Store
+*/*/logs/*
+*.log.*
+/*/logs/
+/*/.vertx/
+/.vertx/
+*/*.log
+*/*/*.log
