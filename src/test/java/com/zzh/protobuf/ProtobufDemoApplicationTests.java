@@ -1,4 +1,4 @@
-package com.zzh.protobuf.demo;
+package com.zzh.protobuf;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

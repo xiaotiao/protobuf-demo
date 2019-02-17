@@ -1,4 +1,4 @@
-package com.zzh.protobuf.demo;
+package com.zzh.protobuf;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

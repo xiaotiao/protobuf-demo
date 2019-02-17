@@ -1,10 +1,7 @@
-package com.zzh.protobuf.demo.codec;
+package com.zzh.protobuf.codec;
 
 import com.google.protobuf.InvalidProtocolBufferException;
 import org.junit.Test;
-
-import java.util.Arrays;
-import java.util.List;
 
 public class SubscribeReqProtoTest {
 
