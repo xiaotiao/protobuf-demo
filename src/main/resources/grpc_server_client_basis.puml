@@ -1,0 +1,29 @@
+@startuml
+
+class Server
+class ServerImpl
+class ServerBuilder{
+
+}
+class AbstractServerImplBuilder {
+  List notifyOnBuildList
+}
+class XXX_Service
+note left of XXX_Service: 实现了XXX_Grpc的功能
+
+ServerBuilder <|-- AbstractServerImplBuilder
+Server <|-- ServerImpl
+Server --o ServerBuilder
+XXX_Service --o AbstractServerImplBuilder: 作为notifyOnBuildList的一个元素
+
+interface Channel
+class ManagedChannel
+class ManagedChannelBuilder
+class xxx_stub
+
+Channel <|-- ManagedChannel
+ManagedChannel --o ManagedChannelBuilder
+xxx_stub ..> Channel
+
+
+@enduml
